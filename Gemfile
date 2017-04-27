@@ -25,13 +25,17 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
 #authentication
 gem 'devise'
+# Use Unicorn as the app server
+# gem 'unicorn'
+#Redis for cart 
+gem 'redis', '~> 3.0.1'
+#hiradis for speed and at the cost of portability
+gem 'hiredis', '~> 0.4.5'
+
+# Use Capistrano for deployment
+
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
