@@ -4,12 +4,13 @@ class MoviesController < ApplicationController
   # GET /movies.json
   def index
     @movies = Movie.all
-     end
+  end
 
   # GET /movies/1
   # GET /movies/1.json
   def show
-    @movie = Movie.find(params[:id])
+    @movie = Movie.find(params[:id])  
+    @cart_action = @movie.cart_action current_user.try :id
   end
 end
 
