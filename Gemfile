@@ -9,7 +9,7 @@ group :production do
 end
 
 group :development do
-	gem 'mysql2', '~> 0.3.13'
+	gem 'mysql2'
 end
 
 # Use SCSS for stylesheets
