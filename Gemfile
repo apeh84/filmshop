@@ -5,7 +5,6 @@ ruby '2.3.1'
 gem 'rails', '4.2.8'
 # Use mysql as the database for Active Record
 #group :production do 
-gem 'pg'
 #end
 #group :development do
 gem 'mysql2','~> 0.3.18'
