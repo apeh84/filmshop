@@ -9,7 +9,7 @@ group :production do
 end
 
 group :development do
-	gem 'mysql2'
+	gem 'mysql2','~> 0.3.18'
 end
 
 gem 'rails_12factor', group: :production
