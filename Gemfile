@@ -4,13 +4,13 @@ ruby '2.3.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.8'
 # Use mysql as the database for Active Record
-group :production do
+#group :production do
     gem 'pg'
 	gem 'rails_12factor' 
-end
-group :development do
-	gem 'mysql2','~> 0.3.18'
-end
+#end
+#group :development do
+	#gem 'mysql2','~> 0.3.18'
+#end
 #group :production do
 #	gem 'mysql2','~> 0.3.18'
 #end
