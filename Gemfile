@@ -5,7 +5,7 @@ ruby '2.3.1'
 gem 'rails', '4.2.8'
 # Use mysql as the database for Active Record
 group :production do
-	gem 'pg'
+    gem 'pg'
 	gem 'rails_12factor' 
 end
 group :development do
